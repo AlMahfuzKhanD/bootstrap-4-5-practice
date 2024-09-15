@@ -122,3 +122,20 @@ header{
     box-shadow: 2px 6px 5px black;
 }
 /* tutorial me end */
+/* feedback me end */
+#feedback{
+    background:#5eaaa8;
+}
+.carousel-item{
+    text-align: center;
+    padding: 5% 15%;
+    font-style: italic;
+}
+.feedback-img{
+    width:120px;
+    height: auto;
+}
+.carousel-indicators{
+    bottom: -20px;
+}
+/* feedback me end */
