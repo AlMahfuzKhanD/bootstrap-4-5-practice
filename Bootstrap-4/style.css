@@ -53,3 +53,27 @@ header{
     font-family: "Handlee", cursive;
 }
 /* header end */
+
+/* features starts */
+#features{
+    padding: 5% 10%;
+    background: #e8ded2;
+}
+
+.features-col{
+    border: 1px solid #ff02c0;
+    border-radius: 15px;
+    padding: 15px;
+    margin: 20px 0px;
+    transition: 0.4s;
+}
+.features-col:hover{
+    transform: scale(1.1);
+    box-shadow: 2px 6px 5px black;
+}
+.icon-style{
+    background: #bb0aac;
+    color: white;
+    padding: 15px;
+    margin: 5px 0px;
+}
