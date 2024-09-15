@@ -140,13 +140,32 @@ header{
     bottom: -20px;
 }
 /* feedback me end */
-/* contact me end */
+/* contact me start */
 #contact{
     padding: 5% 10%;
-    background:#5eaaa8;
+    background:#508C9B;
 }
 .form-group label{
     margin-bottom: 0;
     font-weight: bold;
 }
 /* contact me end */
+/* footer me start */
+footer{
+    padding: 5% 10%;
+    background:#056676;
+}
+footer a{
+    color: white;
+    margin: 0 10px;
+}
+footer a:hover{
+    color: black;
+
+}
+/* footer me end */
+@media (max-width:768px) {
+    .nav-link{
+        background: rgba(0,0,0,0.7);
+    }
+}
