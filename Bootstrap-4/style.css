@@ -92,7 +92,7 @@ header{
 /* about me starts */
 #about-me{
     padding: 5% 10%;
-    background: #e8ded2;
+    background: #DFD3C3;
 }
 #about-me a{
     font-size: 0.9rem;
@@ -124,6 +124,7 @@ header{
 /* tutorial me end */
 /* feedback me end */
 #feedback{
+    padding: 5% 10%;
     background:#5eaaa8;
 }
 .carousel-item{
@@ -139,3 +140,13 @@ header{
     bottom: -20px;
 }
 /* feedback me end */
+/* contact me end */
+#contact{
+    padding: 5% 10%;
+    background:#5eaaa8;
+}
+.form-group label{
+    margin-bottom: 0;
+    font-weight: bold;
+}
+/* contact me end */
