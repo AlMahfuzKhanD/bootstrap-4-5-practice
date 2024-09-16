@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--Font awesome Cdn-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    
+    <link rel="stylesheet" href="offcanvas.css" />
+    <title>Agri-Stock</title>
+  </head>
+  <body class="vh-100">
+    <!-- Navbar -->
+     <div class="container-fluid">
+        <header>
+            <nav class="navbar navbar-expand-lg navbar-dark">
+                <div class="container">
+                    <!-- Logo -->
+                  <a class="navbar-brand fs-4" href="#">Agri-Stock</a>
+                    <!-- Toggle Btn-->
+                  <button class="navbar-toggler shadow-none border-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <!-- Side Bar-->
+                  <div class="sidebar offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                    <!-- Sidebar Header-->
+                    <div class="offcanvas-header text-white border-bottom">
+                      <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Agri-stock</h5>
+                      <button type="button" class="btn-close btn-close-white shadow-none" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    <!-- Sidebar body-->
+                    <div class="offcanvas-body d-flex flex-column flex-lg-row p-4 p-lg-0">
+                      <ul class="navbar-nav justify-content-center justify-content-lg-end align-items-center fs-5 flex-grow-1 pe-3">
+                        <li class="nav-item mx-2">
+                          <a class="nav-link active" aria-current="page" href="#home">Home</a>
+                        </li>
+                        <li class="nav-item mx-2">
+                          <a class="nav-link" href="#feedback">Review</a>
+                        </li>
+                        
+                        
+                      </ul>
+                      
+                      
+                    </div>
+                  </div>
+                </div>
+              </nav>
+        </header>
+        <main>
+            <section id="home" class="">
+                <div class="container">
+                    <div class="row mb-5 text-center mt-5">
+                        <h3>U kunt een aanvraag indienen vanaf € 3000,- tot € 500.000</h3>
+                        <p>Wij bieden particuliere financieringen en leningen snel aan. Voor elk type klant hebben wij een plan. Snel antwoord op al uw vragen</p>
+                    </div>
+                    <div class="row mb-5">
+    
+                        <div class="col-md-8">
+                            <div class="row mb-2 mb-md-5">
+                                <div class="col-md-6 mb-2 mb-md-5">
+                                    <img src="images/bg.jpg" alt="..." class="img-thumbnail p-3">
+                                </div>
+                                <div class="col-md-6">
+                                    <img src="images/bg.jpg" alt="..." class="img-thumbnail p-3">
+                                </div>
+                            </div>
+                            <div class="row mb-3">
+                                <div class="col-md-6 mb-2 mb-md-5">
+                                    <img src="images/bg.jpg" alt="..." class="img-thumbnail p-3">
+                                </div>
+                                <div class="col-md-6">
+                                    <img src="images/bg.jpg" alt="..." class="img-thumbnail p-3">
+                                </div>
+                            </div>
+                            
+                            
+                        </div>
+                        <div class="col-md-4">
+                            <form action="">
+                                <div class="form-group mb-3">
+                                    <input type="text"  class="form-control p-2" placeholder="Voor-en dd">
+                                </div>
+                                <div class="form-group mb-3">
+                                    <input type="text"  class="form-control p-2" placeholder="Leningbedrag nodig">
+                                </div>
+                                <div class="form-group mb-3">
+                                    <input type="email"  class="form-control p-2" placeholder="Email">
+                                </div>
+                                <div class="form-group mb-3">
+                                    <input type="text"  class="form-control p-2" placeholder="Geboortedatum">
+                                </div>
+                                <div class="form-group mb-3">
+                                    <input type="text"  class="form-control p-2" placeholder="Land">
+                                </div>
+                                <div class="form-group mb-3">
+                                    <input type="text"  class="form-control p-2" placeholder="Uw maandelijkse inkomsten">
+                                </div>
+                                <div class="form-group mb-3">
+                                    <input type="text"  class="form-control p-2" placeholder="Whatsapp-nummer">
+                                </div>
+                                <div class="form-group mb-3">
+                                    <input type="text"  class="form-control p-2" placeholder="Benodigd bedrag">
+                                </div>
+                                <div class="form-group mb-3">
+                                    <input type="text"  class="form-control p-2" placeholder="Beroep">
+                                </div>
+                                <div class="form-group mb-3">
+                                    <input type="text"  class="form-control p-2" placeholder="Uw maandinkomen">
+                                </div>
+                                <div class="form-group mb-3">
+                                    <input type="text"  class="form-control p-2" placeholder="Terugbtalings termijn">
+                                </div>
+                                <div class="form-group mb-3">
+                                    <input type="text"  class="form-control p-2" placeholder="Terugbtalings termijn">
+                                </div>
+                                <div class="form-group mb-3">
+                                    <button class="submit-btn form-control p-2">VERSTUREN</button>
+                                </div>
+                                
+                                
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="feedback">
+                <div class="section-title">
+                    <h3 class="text-center text-white pt-5">Customer Review</h3>
+                    <hr class="hr-style">
+                </div>
+                <div class="row text-white">
+                    <div class="col-lg-12">
+                        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel" >
+                            <!-- <div class="carousel-indicators">
+                              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                            </div> -->
+                            <div class="carousel-inner">
+                              <div class="carousel-item active">
+                                <p>Lorem 1 ipsum dolor sit amet consectetur adipisicing elit. Ipsam debitis modi excepturi qui unde provident. Ipsam debitis modi excepturi qui unde provident.</p>
+                                <img class="feedback-img rounded-circle mb-3" src="https://almahfuz.com/public/assets/images/mahfuz.png" alt="">
+                                <h6>Al Mahfuz</h6>
+                              </div>
+                              <div class="carousel-item">
+                                <p>Lorem 2 ipsum dolor sit amet consectetur adipisicing elit. Ipsam debitis modi excepturi qui unde provident. Ipsam debitis modi excepturi qui unde provident.</p>
+                                <img class="feedback-img rounded-circle mb-3" src="https://almahfuz.com/public/assets/images/mahfuz.png" alt="">
+                                <h6>Customer 2</h6>
+                              </div>
+                              <div class="carousel-item">
+                                <p>Lorem 3 ipsum dolor sit amet consectetur adipisicing elit. Ipsam debitis modi excepturi qui unde provident. Ipsam debitis modi excepturi qui unde provident.</p>
+                                <img class="feedback-img rounded-circle mb-3" src="https://almahfuz.com/public/assets/images/mahfuz.png" alt="">
+                                <h6>Customer 3</h6>
+                              </div>
+                              <div class="carousel-item">
+                                <p>Lorem 4 ipsum dolor sit amet consectetur adipisicing elit. Ipsam debitis modi excepturi qui unde provident. Ipsam debitis modi excepturi qui unde provident.</p>
+                                <img class="feedback-img rounded-circle mb-3" src="https://almahfuz.com/public/assets/images/mahfuz.png" alt="">
+                                <h6>Customer 4</h6>
+                              </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                              <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                              <span class="visually-hidden">Next</span>
+                            </button>
+                          </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer>
+            <div class="row text-white">
+                <div class="col-lg-6 text-center text-lg-left mb-3 mb-lg-0">
+                    <p class="small mb-0 mt-1 ">&copy; Agri Stock</p>
+                </div>
+                <div class="col-lg-6 text-center text-lg-right">
+                    <a href="#">Home</a>
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-youtube"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-twiter"></i></a>
+                </div>
+            </div>
+        </footer>
+
+     </div>
+    
+      
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  </body>
+</html>

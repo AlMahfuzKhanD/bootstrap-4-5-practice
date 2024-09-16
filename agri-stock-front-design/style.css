@@ -1,0 +1,23 @@
+body{
+    
+}
+.navbar{
+    background: #030734;
+}
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(255, 255, 255, 0.8)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e") !important;
+}
+.navbar-expand-lg{
+    color: white !important;
+}
+
+.sidebar-body .nav-link{
+    color: white !important;
+}
+
+@media(max-width:991px){
+    .sidebar{
+        background-color: rgba(0, 169, 164, 0.6);
+        backdrop-filter: blur(10px);
+    }
+}
